@@ -23,12 +23,12 @@ Applications in dynamical systems and computational physics.
 
 ---
 
-## 🛠 Skills & Tools
+## Skills & Tools
 * **Languages:** C (primary for performance), Python (data science and prototyping).
 * **Environment:** Linux, Git, LaTeX (for all scientific reporting).
 * **Theoretical Interests:** Topology applied to 3D modeling, Chaotic systems, and numerical linear algebra.
 
 ---
-## 🛠 Skills & Tools
+## Skills & Tools
 * **Languages:** C (primary for performance), Python (prototyping and visualization).
 * **Environment:** Linux, Git, LaTeX (for all scientific reporting).
