@@ -93,12 +93,13 @@ int main() {
     double *b = (double *)malloc(n * sizeof(double));
     double *x = (double *)malloc(n * sizeof(double));
     for (int i = 0; i < n; i++) b[i] = 1.0;
-    printf("Résolution du système Poisson 1D (N=%d) par Gradient Conjugué...\n", n);
+    printf("RÃ©solution du systÃ¨me poisson 1D (N=%d) par gradient conjuguÃ©...\n", n);
     int iters = conjugate_gradient(&A, b, x, 1e-10, 2000);
-    printf("\nConvergence atteinte en %d itérations.\n", iters);
-    printf("Valeurs de x (échantillon) : x[0]=%.4f, x[n/2]=%.4f, x[n-1]=%.4f\n", x[0], x[n/2], x[n-1]);
+    printf("\nConvergence atteinte en %d itÃ©rations.\n", iters);
+    printf("Valeurs de x (Ã©chantillon) : x[0]=%.4f, x[n/2]=%.4f, x[n-1]=%.4f\n", x[0], x[n/2], x[n-1]);
     free_sparse_matrix(&A);
     free(b);
     free(x);
     return 0;
 }
+
