@@ -1,5 +1,5 @@
 # Numerical analysis and computational mathematics
-**High performance implementations developed during my L2 of Mathematics.**
+**High performance implementations developed during my L2 of mathematics.**
 
 This repository illustrates my ability to link theoretical mathematical concepts to efficient programming. These projects were developed alongside my university studies, reflecting a strong focus in numerical stability and algorithmic complexity.
 
